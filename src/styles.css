@@ -2,7 +2,91 @@ body {
     background-color: rgb(153, 153, 204);
 }
 
+.wrapper {
+    margin: 30px;
+}
+
+.add-list {
+    font-size: 20px;
+    padding: 7px 15px;
+    width: 250px;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
+    background: rgb(111, 111, 155);
+    color: white;
+    cursor: pointer;
+}
+
+.list-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
 .new-list {
+    width: 250px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    border-radius: 5px;
+}
+
+.input-list {
+    font-size: 17px;
+    padding: 5px;
+    margin: 10px 0 0 10px;
+}
+
+.btn-list {
+    background-color: rgb(39, 39, 92);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-card {
+    background: rgb(111, 111, 155);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-delete {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .new-list {
     background-color: rgb(138, 138, 182);
     width: 270px;
     border-radius: 5px;
@@ -13,7 +97,7 @@ body {
     color: white;
     font-size: 20px;
     text-decoration: none;
-    /* display: none; */
+    
 }
 
 .text-title {
@@ -28,10 +112,20 @@ body {
     width: 87%;
 }
 
-ul{ 
-	list-style: none;
-	margin: 0;
-    padding: 0;
+.add-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.list-group {
+    
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    border-radius: 25px;
+    color: var(--text-btn-and-text-cards);
+    font-size: 18px;
+    text-align: center;
 }
 
 .add-list-btn {
@@ -70,4 +164,4 @@ ul{
     width: 270px;
     border-radius: 5px;
     margin: 20px;
-}
+} */
