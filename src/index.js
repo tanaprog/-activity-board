@@ -29,7 +29,7 @@ function getInputText(event) {
     event.preventDefault();
 }
 
-function controllerLists(newList) {
+function controllerLists() {
     
     const newList = {
         id: Math.floor(Math.random() * 200) + 1,
@@ -38,6 +38,7 @@ function controllerLists(newList) {
 
     addNewList(newList);
     renderLists();
+    console.log('5555')
 }
 
 function renderLists() {
